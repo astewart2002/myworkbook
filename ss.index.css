@@ -1,0 +1,100 @@
+/* universal styling */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.html {
+    overflow: auto;
+    overflow-y:scroll;
+    overflow-x: scroll;
+}
+
+#header-home {
+    font-family: "MedievalSharp", cursive;
+    color: blue;
+    font-size: 5em;
+}
+
+.side-bar {
+    width: 33vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.homebackdrop {
+    background: url("images/eraser.jpg");
+    width: 100vw;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 65vw;
+    height: 50vh;
+}
+
+.check-this-out {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.main-images img {
+    width: 20vw;
+    padding: 5%;
+}
+
+
+.body {
+    background-image: url(images/grid-pape.jpg);
+}
+
+.tba {
+    font-size: 12em;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 20vh;
+    background-image: url(images/paperr.jpg);
+    color: blue;
+}
+
+#leave-tag {
+    font-size: 0.3em;
+}
+
+.week1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.dog img {
+    max-height: 100vh;
+}
+
+.dog {
+    background-color: blue;
+}
+
+.week1 {
+    background-color: red;
+}
